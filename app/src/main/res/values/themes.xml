@@ -1,0 +1,9 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WannaGo" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.WannaGo" parent="Base.Theme.WannaGo" />
+</resources>

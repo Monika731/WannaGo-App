@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.wannago.home.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_placesFragment"
+            app:destination="@id/placesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/placesFragment"
+        android:name="com.example.wannago.places.PlacesFragment"
+        android:label="PlacesFragment" >
+        <action
+            android:id="@+id/show_place_detail"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.wannago.places.DetailFragment"
+        android:label="DetailFragment">
+        <argument
+            android:name="latitude"
+            app:argType="java.lang.Double" />
+        <argument
+            android:name="longitude"
+            app:argType="java.lang.Double" />
+    </fragment>
+    <fragment
+        android:id="@+id/parksFragment"
+        android:name="com.example.wannago.parks.ParksFragment"
+        android:label="ParksFragment" />
+</navigation>

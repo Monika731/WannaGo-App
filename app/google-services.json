@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1089432500966",
+    "project_id": "fa23-51102-monika-wannago-app",
+    "storage_bucket": "fa23-51102-monika-wannago-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1089432500966:android:ff1a77520221cc1d9f1927",
+        "android_client_info": {
+          "package_name": "com.example.wannago"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1089432500966-nboelf187tkdepkndl0g7ssp73k70q9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9xNacJA_Ncru_saZQIJegGDGm_oOtjHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1089432500966-nboelf187tkdepkndl0g7ssp73k70q9o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
